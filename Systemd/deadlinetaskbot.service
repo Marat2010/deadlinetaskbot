@@ -11,7 +11,7 @@
 
     EnvironmentFile=/etc/environment
 
-    ExecStart=/usr/bin/bash -c 'cd /root/deadlinetaskbot && source .venv/bin/activate && .venv/bin/uvicorn main:app --host 127.0.0.1 --port 8080'
+    ExecStart=/usr/bin/bash -c 'cd /root/deadlinetaskbot && source .venv/bin/activate && .venv/bin/uvicorn main:app --host 127.0.0.1 --port 8050'
 
     [Install]
     WantedBy=multi-user.target
